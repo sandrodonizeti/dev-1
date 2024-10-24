@@ -649,6 +649,8 @@ input.c {
     border-radius: 5px; 
 }
 
+
+
 /* Estilos para o ícone */
 .icon {
     position: absolute;
@@ -656,7 +658,7 @@ input.c {
     cursor: pointer;
     color: #666;
     transition: opacity 0.3s;
-    font-size: 1.5em; /* Ajuste o tamanho do ícone */
+    font-size: 1.5em; 
 }
 
 .icon.hidden {
