@@ -51,7 +51,8 @@ class UserController {
       });
       console.log(user);
       const insertedUserId = await user.create();
-      res.redirect(`/usuarios/exibir/${insertedUserId}`);
+      //res.redirect(`/usuarios/exibir/${insertedUserId}`);
+      res.redirect(`/autenticacao/login`);
     } catch (error) {
       console.log(error);
       return res.status(500).render('error.ejs', { error });
